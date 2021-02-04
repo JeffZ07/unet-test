@@ -19,15 +19,15 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 if __name__ == '__main__':
 
     #path to images which are prepared to train a model
-    train_path = "CamVid"
+    train_path = "data/Jeff"
     image_folder = "train"
     label_folder = "trainannot"
-    valid_path =  "CamVid"
+    valid_path =  "data/Jeff"
     valid_image_folder ="val"
     valid_label_folder = "valannot"
     log_filepath = './log'
     flag_multi_class = True
-    num_classes = 12
+    num_classes = 4
     dp = data_preprocess(train_path=train_path,image_folder=image_folder,label_folder=label_folder,
                          valid_path=valid_path,valid_image_folder=valid_image_folder,valid_label_folder=valid_label_folder,
                          flag_multi_class=flag_multi_class,
@@ -40,10 +40,10 @@ if __name__ == '__main__':
     model = unet(num_class=num_classes)
 
     tb_cb = TensorBoard(log_dir=log_filepath)
-    model_checkpoint = keras.callbacks.ModelCheckpoint('./model/CamVid_model_v1.hdf5', monitor='val_loss',verbose=1,save_best_only=True)
+    model_checkpoint = keras.callbacks.ModelCheckpoint('./model/Jeff_model_v1.hdf5', monitor='val_loss',verbose=1,save_best_only=True)
     history = model.fit_generator(train_data,
-                                  steps_per_epoch=200,epochs=30,
-                                  validation_steps=10,
+                                  steps_per_epoch=5,epochs=1,
+                                  validation_steps=1,
                                   validation_data=valid_data,
                                   callbacks=[model_checkpoint,tb_cb])
 
