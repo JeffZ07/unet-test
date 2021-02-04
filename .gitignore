@@ -2,3 +2,5 @@
 log/events.out.tfevents.1612419861.DESKTOP-RTAQE7T
 log/events.out.tfevents.1612419945.DESKTOP-RTAQE7T
 log/events.out.tfevents.1612420069.DESKTOP-RTAQE7T
+*.hdf5
+*.DESKTOP-RTAQE7T

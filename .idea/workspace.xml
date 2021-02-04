@@ -2,56 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27dab7cb-0f92-4fdf-8233-61d597f3b09e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/Jeff/predict/6_image_predict.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/predict/7_image_predict.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/1 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/10 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/11 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/12 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/13 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/14 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/15 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/16 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/17 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/18 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/19 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/2 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/20 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/21 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/22 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/23 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/24 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/25 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/26 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/27 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/29 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/3 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/30 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/4 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/5 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/6 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/60 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/7 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/8 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/rawinputs/9 - Label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/test/6_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/test/7_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/train/1 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/train/2 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/train/3 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/train/4 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/train/5 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/trainannot/1 - label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/trainannot/2 - label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/trainannot/3 - label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/trainannot/4 - label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/trainannot/5 - label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/val/11 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/val/12 - Sheet - S-1 - Unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/valannot/11 - label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Jeff/valannot/12 - label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/train/1 - Sheet - S-1 - Unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/train/2 - Sheet - S-1 - Unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/train/3 - Sheet - S-1 - Unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/train/4 - Sheet - S-1 - Unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/train/5 - Sheet - S-1 - Unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/trainannot/1 - label.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/trainannot/2 - label.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/trainannot/3 - label.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/trainannot/4 - label.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/trainannot/5 - label.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/val/11 - Sheet - S-1 - Unnamed.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Jeff/val/11 - Sheet - S-1 - Unnamed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/val/12 - Sheet - S-1 - Unnamed.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Jeff/val/12 - Sheet - S-1 - Unnamed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/valannot/11 - label.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Jeff/valannot/12 - label.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/input.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +38,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -141,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612419215725</updated>
-      <workItem from="1612419218197" duration="846000" />
+      <workItem from="1612419218197" duration="6255000" />
     </task>
     <servers />
   </component>
@@ -159,8 +131,24 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/input.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/input.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/unet_test$input.coverage" NAME="input Coverage Results" MODIFIED="1612419827204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/unet_test$train.coverage" NAME="train Coverage Results" MODIFIED="1612420059709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/unet_test$input.coverage" NAME="input Coverage Results" MODIFIED="1612423897766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/unet_test$train.coverage" NAME="train Coverage Results" MODIFIED="1612432515797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

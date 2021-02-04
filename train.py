@@ -42,8 +42,8 @@ if __name__ == '__main__':
     tb_cb = TensorBoard(log_dir=log_filepath)
     model_checkpoint = keras.callbacks.ModelCheckpoint('./model/Jeff_model_v1.hdf5', monitor='val_loss',verbose=1,save_best_only=True)
     history = model.fit_generator(train_data,
-                                  steps_per_epoch=5,epochs=1,
-                                  validation_steps=1,
+                                  steps_per_epoch=200,epochs=2,
+                                  validation_steps=10,
                                   validation_data=valid_data,
                                   callbacks=[model_checkpoint,tb_cb])
 

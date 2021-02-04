@@ -44,6 +44,7 @@ def load_hv_images(path):
     label[b_ind == 1] = 3  # is beam
     label[g_ind == 1] = 4  # is gird
 
+
     label = label.astype(np.uint8)
     label = cv2.resize(label, (512, 512), interpolation=cv2.INTER_CUBIC)
     img_new = np.asarray([label / 255.])
