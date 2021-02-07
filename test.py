@@ -22,6 +22,24 @@ def image_normalized(file_path):
     img_new = np.asarray([img_new / 255.])
     return img_new,image_size
 
+def ProcessResult(ind_im):
+    rgb_im = np.zeros((ind_im.shape[0], ind_im.shape[1], 3))
+
+    for j in range(0, ind_im.shape[0]):
+        for i in range(0, ind_im.shape[1]):
+            item = ind_im[j][i]
+            maxindex = np.argmax(item)
+            if maxindex == 1:
+                rgb_im[j][i] = [165, 165, 0]
+            elif maxindex == 2:
+                rgb_im[j][i] = [0, 165, 0]
+            elif maxindex == 3:
+                rgb_im[j][i] = [165, 0, 0]
+            else:
+                rgb_im[j][i] = [255, 255, 255]
+
+    return rgb_im
+
 
 if __name__ == '__main__':
 
@@ -40,4 +58,5 @@ if __name__ == '__main__':
         image_path = os.path.join(test_path,name)
         x,img_size = image_normalized(image_path)
         results = model.predict(x)
+        results = ProcessResult(results[0])
         dp.saveResult([results[0]],img_size,name.split('.')[0])

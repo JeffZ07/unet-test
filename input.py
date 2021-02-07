@@ -53,7 +53,33 @@ def load_hv_images(path):
     imsave(outdir, label)
     # cv2.imwrite(outdir, img_new)
 
+def LoadAllinOne2():
+    root = "data/Jeff/rawinputs/"
 
+    files = os.listdir(root)
+
+    for file in files:
+        image = cv2.imread(root + file)
+        label = np.zeros((image.shape[0], image.shape[1],4))
+        # image = trans.resize(image, (512, 512, 3), mode='constant')
+        for j in range(0, image.shape[0]):
+            for i in range(0, image.shape[1]):
+                item = image[j][i]
+                if isWall(item):
+                    label[j][i][2] = 1
+                elif isBeam(item):
+                    label[j][i][3] = 1
+                elif isColumn(item):
+                    label[j][i][1] = 1
+                else:
+                    label[j][i][0] = 1
+
+        merge = ind2rgb2(label, color_map=plan_map)
+        plt.imshow(merge)
+        plt.show()
+        filestring = file.split()
+        outdir = "data/Jeff/trainannot/" +filestring[0] +filestring[1]+filestring[2] +" - label.png"
+        imsave(outdir, label)
 
 def LoadAllinOne():
     root = "data/Jeff/rawinputs/"
@@ -80,7 +106,7 @@ def LoadAllinOne():
         plt.imshow(merge)
         plt.show()
         filestring = file.split()
-        outdir = "data/Jeff/trainannot/"+filestring[0] + " - label.png"
+        outdir = "data/Jeff/trainannot/"+filestring[0]+ " - label.png"
         imsave(outdir, label)
 
 plan_map = {
@@ -96,6 +122,25 @@ plan_map = {
 
 }
 
+
+
+def ind2rgb2(ind_im):
+    rgb_im = np.zeros((ind_im.shape[0], ind_im.shape[1], 3))
+
+    for j in range(0, ind_im.shape[0]):
+        for i in range(0, ind_im.shape[1]):
+            item = ind_im[j][i]
+            if item[1] == 1:
+                rgb_im[j][i] = [165, 165, 0]
+            elif item[2] == 1:
+                rgb_im[j][i] = [0, 165, 0]
+            elif item[3] == 1:
+                rgb_im[j][i] = [165, 0, 0]
+            else:
+                rgb_im[j][i] = [255, 255, 255]
+
+    return rgb_im
+
 def ind2rgb(ind_im, color_map):
     rgb_im = np.zeros((ind_im.shape[0], ind_im.shape[1], 3))
 
@@ -103,7 +148,6 @@ def ind2rgb(ind_im, color_map):
         rgb_im[(ind_im == i)] = rgb
 
     return rgb_im
-
 
 def isWall(item):
     aa = item[0]
@@ -136,4 +180,4 @@ def isColumn(item):
         return False
 
 if __name__ == '__main__':
-    LoadAllinOne()
+    LoadAllinOne2()

@@ -43,7 +43,7 @@ if __name__ == '__main__':
     model_checkpoint = keras.callbacks.ModelCheckpoint('./model/Jeff_model_v1.hdf5', monitor='val_loss',verbose=1,save_best_only=True)
     history = model.fit_generator(train_data,
                                   steps_per_epoch=200,epochs=2,
-                                  validation_steps=10,
+                                  validation_steps=12,
                                   validation_data=valid_data,
                                   callbacks=[model_checkpoint,tb_cb])
 
